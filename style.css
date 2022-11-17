@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre&family=Bungee+Inline&family=Merienda+One&family=Sunflower&display=swap');
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding: 90px 0;
+  border-radius: 0.8%;
+}
+div {
+  display: block;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.text-center {
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  color: beige;
+}
+h2 {
+  font-family: 'Averia Libre', cursive;
+}
+p {
+  font-family: 'Sunflower', sans-serif;
+  color: dimgray;
+}
+
+.link-medium {
+  font-family: 'Bungee Inline', cursive;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: rgb(172, 22, 19);
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+a:hover {
+  font-family: 'Bungee Inline', cursive;
+  text-decoration: none;
+  color: rgb(255, 170, 0);
+  transition: 800ms;
+}
+img {
+  width: 230px;
+  height: 167px;
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
